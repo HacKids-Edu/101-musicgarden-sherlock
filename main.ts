@@ -1,5 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-	
+    part1()
+    part2()
 })
 function part2 () {
     for (let index = 0; index < 2; index++) {
@@ -61,7 +62,3 @@ function part1 () {
 }
 music.setTempo(100)
 music.setVolume(100)
-basic.forever(function () {
-    part1()
-    part2()
-})
